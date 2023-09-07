@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
-import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Work from "./Work/Work";
 import Projects from "./Projects/Projects";
@@ -12,7 +11,6 @@ export default function App() {
     <div>
       <Navbar />
       <Home />
-      <About />
       <Skills />
       <Work />
       <Projects />

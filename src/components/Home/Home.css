@@ -1,0 +1,44 @@
+/* Add your existing styles below */
+.home {
+    background-color: #f9f9f9;
+    /* Other styles... */
+}
+
+@media (max-width: 990px) {
+    .home .icons_for_socials {
+    justify-content: center;
+    }
+}
+    
+/* Styling for the content box */
+.home .content-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the headings */
+.home .display-5 {
+    color: #007bff; /* Set a bold color for the heading */
+}
+
+/* Styling for the lead text */
+.home .lead {
+    color: #555; /* Set a slightly darker color for the lead text */
+}
+
+/* Center the button on larger screens */
+.home .d-grid {
+    justify-content: center;
+}
+
+/* Custom CSS for the code card wrapper */
+.home .HeroCardstyle__CodeCardWrapper-sc-n6jkdr-1.ja-dhHv {
+    background-color: #f0f0f0; /* Slightly darker background color */
+    border: 1px solid #d0d0d0; /* Slightly darker border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Add some padding to the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: auto; /* Add horizontal scroll if the content overflows */
+}

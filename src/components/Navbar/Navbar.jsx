@@ -12,11 +12,6 @@ export default function Navbar() {
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              About
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
               Skills
             </a>
           </li>

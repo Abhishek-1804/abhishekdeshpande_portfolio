@@ -1,0 +1,56 @@
+.skill-section {
+    position: relative;
+    height: 75px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.skill-section .skill-scroll-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    animation: scrollSkills 10s linear infinite reverse;
+    width: 200%;
+    align-items: center; /* Center-align vertically within the scroll wrapper */
+}
+
+.skill-section .skill-scroll-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-section .skill-scroll-container img {
+    width: 50px;
+    height: 40px;
+    margin: 20px 30px;
+    object-fit: contain;
+}
+
+.skill-section .skillset-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+@keyframes scrollSkills {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-50%);
+    }
+}
