@@ -17,12 +17,12 @@ export default function Navbar() {
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              Projects
+              Work Exp
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              Work Exp
+              Projects
             </a>
           </li>
           <li class="nav-item">
