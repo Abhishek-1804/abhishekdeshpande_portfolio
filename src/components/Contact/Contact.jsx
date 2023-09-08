@@ -3,7 +3,7 @@
 import React from "react";
 import "./Contact.css";
 
-export default function Contact() {
+export default function Contact(props) {
   return (
     <section className="contact">
       <div className="contact-box">

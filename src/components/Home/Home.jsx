@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <section className="home">
       <div className="container col-xxl-10 px-0 py-1">
@@ -26,7 +26,6 @@ export default function Home() {
                 aria-label="github"
                 title="github"
                 href="//github.com/Abhishek-1804"
-                style={{ textDecoration: "none", outline: "none" }}
               >
                 <img
                   src="images/socials-icons/github.svg"
@@ -39,7 +38,6 @@ export default function Home() {
                 aria-label="linkedin"
                 title="linkedin"
                 href="//linkedin.com/in/abhishekdeshpande18/"
-                style={{ textDecoration: "none", outline: "none" }}
               >
                 <img
                   src="images/socials-icons/linkedin.svg"

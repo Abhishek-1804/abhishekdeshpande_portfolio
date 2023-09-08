@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css"; // Import your CSS file for styling
 
-export default function Skills() {
+export default function Skills(props) {
   return (
     <section className="skill-section">
       <div className="container">

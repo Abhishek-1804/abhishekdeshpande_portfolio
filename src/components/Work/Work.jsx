@@ -1,7 +1,7 @@
 import React from "react";
 import "./Work.css";
 
-export default function Work() {
+export default function Work(props) {
   const workExperienceData = [
     {
       company: "Ganit Inc",

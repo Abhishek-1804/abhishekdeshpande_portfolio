@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Projects.css"
+import "./Projects.css";
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <section className="projects">
       <h2>Projects</h2>
