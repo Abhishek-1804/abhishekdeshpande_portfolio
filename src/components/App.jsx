@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import Skills from "./Skills/Skills";
@@ -15,12 +16,14 @@ export default function App() {
   const contactRef = useRef(null);
 
   // Function to scroll to a section
-  const scrollToSection = (sectionRef) => {
+  function scrollToSection(sectionRef) {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+  }
 
   // Function to handle navigation link clicks
-  const handleNavLinkClick = (sectionName) => {
+  /*   when expression is passed from parent to child, it is being used in child carefree, however, 
+   when a function is passed, it is getting triggered in child but executed in parent itself */
+  function handleNavLinkClick(sectionName) {
     switch (sectionName) {
       case "home":
         scrollToSection(homeRef);
@@ -40,11 +43,11 @@ export default function App() {
       default:
         break;
     }
-  };
+  }
 
   return (
     <div>
-      <Navbar handleNavLinkClick={handleNavLinkClick} />
+      <Navbar selectedNav={handleNavLinkClick} />
       <section ref={homeRef} id="home" className="section-with-padding">
         <Home />
       </section>

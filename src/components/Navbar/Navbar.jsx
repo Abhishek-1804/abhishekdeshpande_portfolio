@@ -4,13 +4,6 @@ import "./Navbar.css";
 export default function Navbar(props) {
   const [active, setActive] = useState("home");
 
-  const { handleNavLinkClick } = props;
-
-  const handleNavLinkClickAndUpdateActive = (sectionName) => {
-    setActive(sectionName);
-    handleNavLinkClick(sectionName);
-  };
-
   return (
     <section className="navbar">
       <div className="d-flex container align-items-center justify-content-center">
@@ -20,7 +13,10 @@ export default function Navbar(props) {
               <a
                 href="#home"
                 className={`nav-link mx-2 ${active === "home" ? "active" : ""}`}
-                onClick={() => handleNavLinkClickAndUpdateActive("home")}
+                onClick={() => {
+                  setActive("home");
+                  props.selectedNav("home");
+                }}
               >
                 Home
               </a>
@@ -31,7 +27,10 @@ export default function Navbar(props) {
                 className={`nav-link mx-2 ${
                   active === "skills" ? "active" : ""
                 }`}
-                onClick={() => handleNavLinkClickAndUpdateActive("skills")}
+                onClick={() => {
+                  setActive("skills");
+                  props.selectedNav("skills");
+                }}
               >
                 Skills
               </a>
@@ -42,7 +41,10 @@ export default function Navbar(props) {
                 className={`nav-link mx-2 ${
                   active === "work-exp" ? "active" : ""
                 }`}
-                onClick={() => handleNavLinkClickAndUpdateActive("work-exp")}
+                onClick={() => {
+                  setActive("work-exp");
+                  props.selectedNav("work-exp");
+                }}
               >
                 Work Exp
               </a>
@@ -53,7 +55,10 @@ export default function Navbar(props) {
                 className={`nav-link mx-2 ${
                   active === "projects" ? "active" : ""
                 }`}
-                onClick={() => handleNavLinkClickAndUpdateActive("projects")}
+                onClick={() => {
+                  setActive("projects");
+                  props.selectedNav("projects");
+                }}
               >
                 Projects
               </a>
@@ -64,7 +69,10 @@ export default function Navbar(props) {
                 className={`nav-link mx-2 ${
                   active === "contact" ? "active" : ""
                 }`}
-                onClick={() => handleNavLinkClickAndUpdateActive("contact")}
+                onClick={() => {
+                  setActive("contact");
+                  props.selectedNav("contact");
+                }}
               >
                 Contact
               </a>
