@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abhishekdeshpande_portfolio/static/css/main.86fee491.css",
+    "main.js": "/abhishekdeshpande_portfolio/static/js/main.00c19f33.js",
+    "index.html": "/abhishekdeshpande_portfolio/index.html",
+    "main.86fee491.css.map": "/abhishekdeshpande_portfolio/static/css/main.86fee491.css.map",
+    "main.00c19f33.js.map": "/abhishekdeshpande_portfolio/static/js/main.00c19f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86fee491.css",
+    "static/js/main.00c19f33.js"
+  ]
+}
