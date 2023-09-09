@@ -22,7 +22,6 @@ export default function Home(props) {
             </div>
             <div className="icons_for_socials d-flex align-items-center mt-2">
               <a
-                target="__blank"
                 aria-label="github"
                 title="github"
                 href="//github.com/Abhishek-1804"
@@ -34,7 +33,6 @@ export default function Home(props) {
                 />
               </a>
               <a
-                target="__blank"
                 aria-label="linkedin"
                 title="linkedin"
                 href="//linkedin.com/in/abhishekdeshpande18/"

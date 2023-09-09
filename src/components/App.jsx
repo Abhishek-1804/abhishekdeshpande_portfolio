@@ -8,7 +8,6 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 
 export default function App() {
-  // Create refs for each section
   const homeRef = useRef(null);
   const skillsRef = useRef(null);
   const workExpRef = useRef(null);
