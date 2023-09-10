@@ -1,17 +1,19 @@
 import React from "react";
+import SkillData from "./SkillData";
 import "./Skills.css";
-import skillsData from "./SkillData";
-import SkillCard from "./SkillCard"; // Import the SkillCard component
 
 export default function Skills(props) {
   return (
-    <section className="skill-section">
-      <div className="container">
-        <h2 className="text-center">My Skills</h2>
-        <div className="row">
-          {skillsData.map((skill) => (
-            <div key={skill.id} className="col-12 col-md-4 col-lg-3">
-              <SkillCard {...skill} />
+    <section id="skills">
+      <div className="col-md-12">
+        <div className="col-md-12">
+          <h1 className="section-title text-center">My Skills</h1>
+        </div>
+        <div className="skill-container">
+          {SkillData.map((skill) => (
+            <div className="skills-tile" key={skill.id}>
+              <img src={skill.icon} alt={skill.name} className="skill-icon" />
+              <p className="skill-name">{skill.name}</p>
             </div>
           ))}
         </div>
