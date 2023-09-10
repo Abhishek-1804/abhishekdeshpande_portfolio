@@ -3,9 +3,9 @@ import "./Projects.css";
 
 export default function Projects(props) {
   return (
-    <section className="projects">
-      <h2>Projects</h2>
-      <p>coming soon...</p>
+    <section className="projects-section">
+      <h2 className="text-center">Projects</h2>
+      <p style={{ marginBottom: "0" }}>coming soon...</p>
     </section>
   );
 }

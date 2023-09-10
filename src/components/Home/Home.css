@@ -1,23 +1,24 @@
-.home {
+.home-section {
   background-color: #f9f9f9;
+  padding-top: 100px;
 }
 
 @media (max-width: 990px) {
-  .home .icons_for_socials {
+  .home-section .icons_for_socials {
     justify-content: center;
   }
 }
 
-.home .content-box {
+.home-section .content-box {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.home .d-grid {
+.home-section .d-grid {
   justify-content: center;
 }
 
-.home .HeroCardstyle__CodeCardWrapper-sc-n6jkdr-1.ja-dhHv {
+.home-section .HeroCardstyle__CodeCardWrapper-sc-n6jkdr-1.ja-dhHv {
   background-color: #f0f0f0;
   border: 1px solid #d0d0d0; 
   border-radius: 8px;

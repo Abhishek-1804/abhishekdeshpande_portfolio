@@ -1,39 +1,11 @@
 /* WorkExperience.css */
-.work {
-  padding: 20px;
-  background-color: #f5f5f5;
+.work-section {
+  background-color: #f9f9f9;
+  padding-top: 100px;
 }
 
-.work-experience-item {
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px 0;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.work-experience-item h3 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.work-experience-item p {
-  font-size: 1rem;
-  color: #666;
-}
-
-.work-experience-item ul {
-  margin-top: 10px;
-  list-style: disc;
-  padding-left: 20px;
-}
-
-.work-experience-item li {
-  font-size: 1rem;
-  color: #444;
-  margin-bottom: 5px;
+.custom-rounded {
+  border-radius: 15px; /* Adjust the value to control the border-radius */
 }
 
 /* Define animations using keyframes */

@@ -1,24 +1,30 @@
+.skills-section {
+  background-color: #f9f9f9;
+  padding-top: 100px;
+}
+
 .skill-container {
-  text-align: center; /* Center the tiles horizontally */
-  margin: 0px 200px;
+  text-align: center;
+  margin: 0px 150px;
 }
 
 .skills-tile {
-  display: inline-block; /* Display tiles in a row */
-  text-align: center; /* Center content horizontally */
-  background-color: #f9f9f9;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
   border: 1px solid #e0e0e0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   border-radius: 20px;
+  padding: 10px;
   width: 100px;
   height: 100px;
   margin: 15px;
 }
 
 .skills-tile:hover {
-  transform: scale(1.05); /* Scale up on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .skill-icon {

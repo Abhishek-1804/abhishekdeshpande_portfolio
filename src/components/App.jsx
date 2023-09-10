@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import Skills from "./Skills/Skills";
@@ -47,19 +46,19 @@ export default function App() {
   return (
     <div>
       <Navbar selectedNav={handleNavLinkClick} />
-      <section ref={homeRef} id="home" className="section-with-padding">
+      <section ref={homeRef} id="home">
         <Home />
       </section>
-      <section ref={skillsRef} id="skills" className="section-with-padding">
+      <section ref={skillsRef} id="skills">
         <Skills />
       </section>
-      <section ref={workExpRef} id="work-exp" className="section-with-padding">
+      <section ref={workExpRef} id="work-exp">
         <Work />
       </section>
-      <section ref={projectsRef} id="projects" className="section-with-padding">
+      <section ref={projectsRef} id="projects">
         <Projects />
       </section>
-      <section ref={contactRef} id="contact" className="section-with-padding">
+      <section ref={contactRef} id="contact">
         <Contact />
       </section>
     </div>

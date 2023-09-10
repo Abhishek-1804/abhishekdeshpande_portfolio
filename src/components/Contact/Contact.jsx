@@ -5,7 +5,7 @@ import "./Contact.css";
 
 export default function Contact(props) {
   return (
-    <section className="contact">
+    <section className="contact-section">
       <div className="contact-box">
         <div className="contact-info">
           <h2>Contact Information</h2>

@@ -4,7 +4,7 @@ import "./Skills.css";
 
 export default function Skills(props) {
   return (
-    <section id="skills">
+    <section className="skills-section">
       <div className="col-md-12">
         <div className="col-md-12">
           <h1 className="section-title text-center">My Skills</h1>
