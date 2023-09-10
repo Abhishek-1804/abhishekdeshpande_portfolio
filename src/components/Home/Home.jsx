@@ -4,7 +4,7 @@ import "./Home.css";
 export default function Home(props) {
   return (
     <section className="home-section">
-      <div className="container col-xxl-10 px-0 py-1">
+      <div className="container col-xxl-10 px-0">
         <div className="row flex-lg-row align-items-center g-5">
           <div className="col-lg-6 col-sm-12 text-center text-lg-start px-5">
             <p className="mb-0">Hello, I'm</p>
@@ -18,6 +18,12 @@ export default function Home(props) {
                 className="btn btn-primary btn-lg px-4 me-md-2"
               >
                 Download CV
+              </button>
+              <button
+                type="button"
+                className="btn btn-secondary btn-lg px-4 me-md-2"
+              >
+                Hire Me
               </button>
             </div>
             <div className="icons_for_socials d-flex align-items-center mt-2">
