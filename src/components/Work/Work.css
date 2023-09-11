@@ -31,3 +31,9 @@
   color: #888;
   opacity: 0.7;
 }
+
+.company-logo {
+  max-width: 100px; /* Adjust the max width as needed */
+  max-height: 80px; /* Adjust the max height as needed */
+  object-fit: contain; /* This property maintains the aspect ratio */
+}

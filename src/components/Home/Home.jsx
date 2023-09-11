@@ -2,6 +2,11 @@ import React from "react";
 import "./Home.css";
 
 export default function Home(props) {
+  const hireMeEmail = "abhidp55@gmail.com";
+
+  /* prettier-ignore */
+  const pdfUrl = "https://drive.google.com/file/d/1a9L2owlEsZeznWbuzlrIWQ0cxEZnoCV0/view?usp=sharing";
+
   return (
     <section className="home-section">
       <div className="container col-xxl-10 px-0">
@@ -13,18 +18,21 @@ export default function Home(props) {
             </h1>
             <p className="lead">A creative full-stack developer</p>
             <div className="d-grid gap-2 d-md-flex justify-content-lg-start">
-              <button
-                type="button"
+              <a
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary btn-lg px-4 me-md-2"
               >
                 Download CV
-              </button>
-              <button
-                type="button"
+              </a>
+              <a
+                href={`mailto:${hireMeEmail}`}
+                target="_blank"
                 className="btn btn-secondary btn-lg px-4 me-md-2"
               >
                 Hire Me
-              </button>
+              </a>
             </div>
             <div className="icons_for_socials d-flex align-items-center mt-2">
               <a

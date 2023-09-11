@@ -1,22 +1,17 @@
-
 .contact-section {
   background-color: #f9f9f9;
 }
 
 .contact-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 10px 10px 10px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
-  flex: 1;
   padding: 20px;
 }
 
@@ -25,6 +20,16 @@
   margin-bottom: 10px;
 }
 
-.contact-info p {
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
   margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+  margin-right: 10px;
 }

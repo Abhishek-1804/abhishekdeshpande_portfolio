@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"; // Import the external link icon
 
 export default function Navbar(props) {
   const [active, setActive] = useState("home");
+
+  /* prettier-ignore */
+  const linkToRedirect = "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio";
 
   return (
     <section className="navbar">
@@ -79,6 +84,15 @@ export default function Navbar(props) {
             </li>
           </ul>
         </header>
+        <div className="redirect-button">
+          <a
+            href={linkToRedirect}
+            className="btn btn-outline-secondary"
+            target="_blank"
+          >
+            View Source Code <FontAwesomeIcon icon={faExternalLinkAlt} />
+          </a>
+        </div>
       </div>
     </section>
   );
