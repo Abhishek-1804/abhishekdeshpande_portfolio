@@ -18,8 +18,8 @@ This website serves as a showcase of my work, skills, and experiences as a creat
 
 - Home: Get to know me, my name, and what I specialize in.
 - Download CV: Easily download my CV (resume) for more detailed information.
-- Hire Me: Connect with me via email for potential job opportunities or collaborations.
-- Social Links: Access my GitHub and LinkedIn profiles to stay updated with my work and connect professionally.
+- Hire Me: Connect with me via email for potential job opportunities or collaborations
+- Social Links: Access my GitHub and LinkedIn profiles to stay updated with my work and connect professionally
 
 ## Inspiration
 
@@ -41,7 +41,7 @@ This website serves as a showcase of my work, skills, and experiences as a creat
 }
 ```
 4. npm start project and customize it
-5. Deploy on github-pages using npm run deploy command.
+5. Deploy on github-pages using npm run deploy command
 
 ```
 ⚠️ Note that:
