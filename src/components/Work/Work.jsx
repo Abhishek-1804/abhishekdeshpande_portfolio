@@ -4,14 +4,20 @@ import workExperienceData from "./WorkExperienceData";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Work(props) {
-  const [expandedCard, setExpandedCard] = useState(null);
+  const [expandedCards, setExpandedCards] = useState([]);
 
   const toggleCard = (index) => {
-    if (expandedCard === index) {
-      setExpandedCard(null);
+    if (expandedCards.includes(index)) {
+      // If the card is already expanded, remove it from the array
+      setExpandedCards(expandedCards.filter((item) => item !== index));
     } else {
-      setExpandedCard(index);
+      // If the card is not expanded, add it to the array
+      setExpandedCards([...expandedCards, index]);
     }
+  };
+
+  const isCardExpanded = (index) => {
+    return expandedCards.includes(index);
   };
 
   return (
@@ -23,12 +29,12 @@ export default function Work(props) {
             <motion.div
               key={index}
               className={`col-md-8 mx-auto mt-4 fade-in ${
-                expandedCard === index ? "expanded col-md-12" : ""
+                isCardExpanded(index) ? "expanded col-md-12" : ""
               }`}
               initial={{ opacity: 0, width: "50%" }}
               animate={{
                 opacity: 1,
-                width: expandedCard === index ? "100%" : "60%",
+                width: isCardExpanded(index) ? "100%" : "60%",
               }}
               transition={{ duration: 0.3, ease: "easeOut" }}
               onClick={() => toggleCard(index)}
@@ -49,7 +55,7 @@ export default function Work(props) {
                       className="company-logo"
                     />
                   </div>
-                  {expandedCard === index ? (
+                  {isCardExpanded(index) ? (
                     <AnimatePresence>
                       <motion.ul
                         key="responsibilities"
