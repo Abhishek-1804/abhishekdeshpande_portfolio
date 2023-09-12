@@ -1,20 +1,34 @@
-.navbar {
+.navbar-section {
   position: fixed !important;
   top: 0;
   width: 100%;
   background-color: #fff;
   z-index: 1000;
+  transition: background-color 0.3s;
+
 }
 
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
   padding: 5px 10px;
   border-radius: 15px;
 }
 
 .nav-link:hover {
   background-color: #f0f0f0;
+}
+
+.navbar-section.dark-mode {
+  background-color: #333;
+}
+
+.navbar-section.dark-mode .nav-link {
+  color: #fff; 
+  background-color: #444;
   transition: background-color 0.3s;
+}
+
+.navbar-section.dark-mode .nav-link:hover {
+  background-color: #555;
 }

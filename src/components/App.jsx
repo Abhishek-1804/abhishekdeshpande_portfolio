@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import Skills from "./Skills/Skills";
@@ -7,6 +7,13 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 
 export default function App() {
+
+  const [darkMode, setDarkMode] = useState(false)
+
+  function toggleDarkMode() {
+    setDarkMode(!darkMode)
+  }
+
   const homeRef = useRef(null);
   const skillsRef = useRef(null);
   const workExpRef = useRef(null);
@@ -45,21 +52,21 @@ export default function App() {
 
   return (
     <div>
-      <Navbar selectedNav={handleNavLinkClick} />
+      <Navbar selectedNav={handleNavLinkClick} darkMode={darkMode} />
       <section ref={homeRef} id="home">
-        <Home />
+        <Home setDarkMode={toggleDarkMode} darkMode={darkMode} />
       </section>
       <section ref={skillsRef} id="skills">
-        <Skills />
+        <Skills darkMode={darkMode} />
       </section>
       <section ref={workExpRef} id="work-exp">
-        <Work />
+        <Work darkMode={darkMode} />
       </section>
       <section ref={projectsRef} id="projects">
-        <Projects />
+        <Projects darkMode={darkMode} />
       </section>
       <section ref={contactRef} id="contact">
-        <Contact />
+        <Contact darkMode={darkMode} />
       </section>
     </div>
   );

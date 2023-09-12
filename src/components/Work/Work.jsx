@@ -21,7 +21,7 @@ export default function Work(props) {
   };
 
   return (
-    <section className="work-section">
+    <section className={`work-section ${props.darkMode && "dark-mode"}`}>
       <h2 className="text-center">Work Experience</h2>
       <div className="container">
         <div className="row">
@@ -44,7 +44,7 @@ export default function Work(props) {
                   <div className="d-flex justify-content-between align-items-center my-3">
                     <div>
                       <h5 className="card-title">{experience.company}</h5>
-                      <h6 className="card-subtitle text-muted">
+                      <h6 className="card-subtitle">
                         {experience.title}
                       </h6>
                       <p className="card-text">{experience.date}</p>

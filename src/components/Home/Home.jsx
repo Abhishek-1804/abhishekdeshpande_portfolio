@@ -1,40 +1,73 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
+import { FaSun, FaMoon } from "react-icons/fa";
 import "./Home.css";
 
 export default function Home(props) {
   const hireMeEmail = "abhidp55@gmail.com";
-
-  /* prettier-ignore */
-  const pdfUrl = "https://drive.google.com/file/d/1a9L2owlEsZeznWbuzlrIWQ0cxEZnoCV0/view?usp=sharing";
+  const pdfUrl =
+    "https://drive.google.com/file/d/1a9L2owlEsZeznWbuzlrIWQ0cxEZnoCV0/view?usp=sharing";
 
   return (
-    <section className="home-section">
-      <div className="container col-xxl-10 px-0">
+    <section className={`home-section ${props.darkMode && "dark-mode"}`}>
+      <div className="container">
         <div className="row flex-lg-row align-items-center g-5">
-          <div className="col-lg-6 col-sm-12 text-center text-lg-start px-5">
+          <div className="col-lg-12 text-center px-5">
             <p className="mb-0">Hello, I'm</p>
-            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-1">
+            <h1 className="display-5 fw-bold text-body-emphasis mb-1">
               Abhishek Deshpande
             </h1>
-            <p className="lead">A creative full-stack developer</p>
-            <div className="d-grid gap-2 d-md-flex justify-content-lg-start">
+            <div className="typewriter-container">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Full Stack Developer",
+                    "Data Scientist",
+                    "Software Engineer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 10,
+                }}
+              />
+            </div>
+            <div className="d-grid d-md-flex justify-content-center align-items-center">
               <a
                 href={pdfUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-primary btn-lg px-4 me-md-2"
+                className="btn btn-primary btn-lg m-1"
+                style={{ height: "50px" }}
               >
                 Download CV
               </a>
               <a
                 href={`mailto:${hireMeEmail}`}
                 target="_blank"
-                className="btn btn-secondary btn-lg px-4 me-md-2"
+                className="btn btn-secondary btn-lg m-1"
+                style={{ height: "50px" }}
               >
                 Hire Me
               </a>
+              <button
+                onClick={props.setDarkMode}
+                className={`btn btn-outline-dark ${
+                  props.darkMode ? "btn-outline-dark" : "bg-outline-dark"
+                } m-1`}
+                style={{ height: "40px" }}
+              >
+                {props.darkMode ? (
+                  <>
+                    <FaSun className="sun-icon" />
+                  </>
+                ) : (
+                  <>
+                    <FaMoon className="moon-icon" />
+                  </>
+                )}
+              </button>
             </div>
-            <div className="icons_for_socials d-flex align-items-center mt-2">
+            <div className="icons_for_socials d-flex justify-content-center mt-1">
               <a
                 aria-label="github"
                 title="github"
@@ -43,7 +76,7 @@ export default function Home(props) {
                 <img
                   src="images/socials-icons/github.svg"
                   alt="GitHub"
-                  style={{ width: "30px", height: "45px", marginRight: "20px" }}
+                  style={{ width: "30px", height: "45px", marginRight: "10px" }}
                 />
               </a>
               <a
@@ -57,28 +90,6 @@ export default function Home(props) {
                   style={{ width: "30px", height: "45px" }}
                 />
               </a>
-            </div>
-          </div>
-          <div className="col-12 col-sm-12 col-lg-6">
-            <div className="HeroCardstyle__CodeCardWrapper-sc-n6jkdr-1 ja-dhHv">
-              <pre>
-                1&nbsp;&nbsp;className <b>Person</b> &#123;
-              </pre>
-              <pre>2&nbsp;&nbsp;&nbsp;&nbsp; constructor() &#123;</pre>
-              <pre>
-                3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "
-                <b>Abhishek Deshpande</b>";
-              </pre>
-              <pre>
-                4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["
-                <b>FULL STACK</b>", "<b>ML</b>", "<b>DEV</b>"];
-              </pre>
-              <pre>
-                5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = new
-                Date().getFullYear() - 2000;
-              </pre>
-              <pre>6&nbsp;&nbsp;&nbsp;&nbsp; &#125;</pre>
-              <pre>7&nbsp;&#125;</pre>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 .skills-section {
   background-color: #f9f9f9;
   padding-top: 100px;
+  transition: background-color 0.3s;
+
 }
 
 .skill-container {
@@ -53,4 +55,14 @@
 
 .skills-tile {
   animation: fadeIn 0.5s ease-in-out;
+}
+
+.skills-section.dark-mode {
+  background-color: grey;
+}
+
+.skills-section.dark-mode .skills-tile {
+  border-color: #555; 
+  color: white; 
+  background-color: #555; 
 }

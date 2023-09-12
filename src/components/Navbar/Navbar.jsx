@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"; // Import the external link icon
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar(props) {
   const [active, setActive] = useState("home");
@@ -10,8 +10,8 @@ export default function Navbar(props) {
   const linkToRedirect = "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio";
 
   return (
-    <section className="navbar">
-      <div className="d-flex container align-items-center justify-content-center">
+    <section className={`navbar-section ${props.darkMode && "dark-mode"}`}>
+      <div className="d-flex container align-items-center justify-content-between">
         <header className="d-flex justify-content-center py-3 top-0">
           <ul className="nav nav-pills">
             <li className="nav-item">
@@ -87,7 +87,9 @@ export default function Navbar(props) {
         <div className="redirect-button">
           <a
             href={linkToRedirect}
-            className="btn btn-outline-secondary"
+            className={`btn ${
+              props.darkMode ? "btn-outline-light" : "btn-outline-secondary"
+            }`}
             target="_blank"
           >
             View Source Code <FontAwesomeIcon icon={faExternalLinkAlt} />

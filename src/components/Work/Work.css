@@ -1,6 +1,7 @@
 .work-section {
   background-color: #f9f9f9;
   padding-top: 100px;
+  transition: background-color 0.3s;
 }
 
 .work-section .card {
@@ -37,4 +38,24 @@
   max-width: 100px; /* Adjust the max width as needed */
   max-height: 80px; /* Adjust the max height as needed */
   object-fit: contain; /* This property maintains the aspect ratio */
+}
+
+.work-section.dark-mode{
+  background-color: grey;
+}
+
+.work-section.dark-mode .card {
+  background-color: #555; /* Dark mode background color for cards */
+  border-color: #555; /* Border color for dark mode */
+  color: white; /* Text color for dark mode */
+}
+
+.work-section.dark-mode .card .click-to-expand {
+  color: lightgray; /* Text color for the "Click to view details" text in dark mode */
+}
+
+.work-section.dark-mode .card-title,
+.work-section.dark-mode .card-subtitle,
+.work-section.dark-mode .card-text {
+  color: white; /* Text color for dark mode */
 }

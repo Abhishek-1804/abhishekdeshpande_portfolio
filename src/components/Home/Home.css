@@ -1,29 +1,27 @@
 .home-section {
   background-color: #f9f9f9;
   padding-top: 120px;
+  transition: background-color 0.3s;
 }
 
-@media (max-width: 990px) {
-  .home-section .icons_for_socials {
-    justify-content: center;
-  }
+.home-section p {
+  font-size: 1.2rem;
 }
 
-.home-section .content-box {
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.home-section.dark-mode {
+  background-color: grey;
 }
 
-.home-section .d-grid {
-  justify-content: center;
+/* Dark mode text color */
+.home-section.dark-mode .btn {
+  color: white;
 }
 
-.home-section .HeroCardstyle__CodeCardWrapper-sc-n6jkdr-1.ja-dhHv {
-  background-color: #f0f0f0;
-  border: 1px solid #d0d0d0; 
-  border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  white-space: nowrap;
-  overflow-x: auto;
+/* Dark mode text color for secondary button */
+.home-section.dark-mode .btn-secondary {
+  color: white;
+}
+
+.typewriter-container {
+  font-size: 1.2rem; /* Adjust the font size as needed */
 }

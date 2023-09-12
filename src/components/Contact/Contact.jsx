@@ -11,7 +11,7 @@ export default function Contact(props) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <section className="contact-section">
+    <section className={`contact-section ${props.darkMode && "dark-mode"}`}>
       <div className="container">
         <div className="row">
           <div className="col-md-4 mx-auto">
