@@ -25,7 +25,7 @@ This website serves as a showcase of my work, skills, and experiences as a creat
 
 - React Fortawesome
 - React-Bootstrap
-- React alice-carousel
+- Framer-motion
 
 ## Usage
 
