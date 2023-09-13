@@ -1,6 +1,6 @@
 # Abhishek Deshpande's Portfolio Website
 
-Welcome to my personal portfolio website! You can access the live site [here](https://abhishek-1804.github.io/abhishekdeshpande_portfolio/).
+Welcome to my personal portfolio website! You can access the live site [here](https://abhishek-1804.github.io/abhishekdeshpande_portfolio/)
 
 ## Table of Contents
 
@@ -12,25 +12,26 @@ Welcome to my personal portfolio website! You can access the live site [here](ht
 
 ## About
 
-This website serves as a showcase of my work, skills, and experiences as a creative full-stack developer. It's designed to provide you with insights into my expertise, projects, and how to get in touch with me for potential collaborations.
+This website serves as a showcase of my work, skills, and experiences as a creative full-stack developer. It's designed to provide you with insights into my expertise, projects, and how to get in touch with me for potential collaborations
 
 ## Features
 
-- Home: Get to know me, my name, and what I specialize in.
-- Download CV: Easily download my CV (resume) for more detailed information.
+- Home: Get to know me, my name, and what I specialize in
+- Dark Mode Toggle: Toggle between dark and light mode
+- Download CV: Easily download my CV (resume) for more detailed information
 - Hire Me: Connect with me via email for potential job opportunities or collaborations
 - Social Links: Access my GitHub and LinkedIn profiles to stay updated with my work and connect professionally
 
 ## Inspiration
 
 - React Fortawesome
-- React-Bootstrap
+- Bootstrap
 - Framer-motion
 
 ## Usage
 
 1. Clone or fork the project
-2. Install required dependencies with npm install
+2. Install required dependencies with ``` npm install ```
 3. Remove homepage entirely from package.json or set it to single dot
 ```
 // package.json
@@ -40,16 +41,18 @@ This website serves as a showcase of my work, skills, and experiences as a creat
   ...
 }
 ```
-4. npm start project and customize it
+4. ```npm start``` project and customize it
 5. Deploy on github-pages using npm run deploy command
 
 ```
 ⚠️ Note that:
+
 - if you want to have portfolio on different repository than `{username}.github.io`, 
 set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
-before deploying portfolio.
+before deploying portfolio
+
 - if you want to run it locally with npm run start, make sure that you have edited 
-homepage property or json data won't load.
+homepage property or json data won't load
 ```
 
 ## Contributing
