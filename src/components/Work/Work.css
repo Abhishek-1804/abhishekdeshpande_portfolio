@@ -1,10 +1,14 @@
 .work-section {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding-top: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   transition: background-color 0.3s;
 }
 
 .work-section .card {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   border-radius: 15px;
 }
 
@@ -35,27 +39,32 @@
 }
 
 .company-logo {
-  max-width: 100px; /* Adjust the max width as needed */
-  max-height: 80px; /* Adjust the max height as needed */
-  object-fit: contain; /* This property maintains the aspect ratio */
+  max-width: 100px;
+  max-height: 80px;
+  object-fit: contain;
 }
 
-.work-section.dark-mode{
+/* dark mode */
+.work-section.dark-mode {
   background-color: grey;
 }
 
 .work-section.dark-mode .card {
-  background-color: #555; /* Dark mode background color for cards */
-  border-color: #555; /* Border color for dark mode */
-  color: white; /* Text color for dark mode */
+  background-color: #555;
+  color: white;
+  border: 1px solid #555;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .work-section.dark-mode .card .click-to-expand {
-  color: lightgray; /* Text color for the "Click to view details" text in dark mode */
+  color: lightgray;
 }
 
-.work-section.dark-mode .card-title,
+.work-section.dark-mode .card-title {
+  color: white;
+}
+
 .work-section.dark-mode .card-subtitle,
 .work-section.dark-mode .card-text {
-  color: white; /* Text color for dark mode */
+  color: lightgrey;
 }

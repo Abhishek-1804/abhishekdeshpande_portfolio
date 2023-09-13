@@ -7,11 +7,10 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 
 export default function App() {
-
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
 
   function toggleDarkMode() {
-    setDarkMode(!darkMode)
+    setDarkMode(!darkMode);
   }
 
   const homeRef = useRef(null);
@@ -52,9 +51,13 @@ export default function App() {
 
   return (
     <div>
-      <Navbar selectedNav={handleNavLinkClick} darkMode={darkMode} />
+      <Navbar
+        selectedNav={handleNavLinkClick}
+        setDarkMode={toggleDarkMode}
+        darkMode={darkMode}
+      />
       <section ref={homeRef} id="home">
-        <Home setDarkMode={toggleDarkMode} darkMode={darkMode} />
+        <Home darkMode={darkMode} />
       </section>
       <section ref={skillsRef} id="skills">
         <Skills darkMode={darkMode} />

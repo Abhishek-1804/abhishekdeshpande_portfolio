@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaSun, FaMoon } from "react-icons/fa";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar(props) {
@@ -12,12 +13,12 @@ export default function Navbar(props) {
   return (
     <section className={`navbar-section ${props.darkMode && "dark-mode"}`}>
       <div className="d-flex container align-items-center justify-content-between">
-        <header className="d-flex justify-content-center py-3 top-0">
+        <div className="d-flex justify-content-center py-3">
           <ul className="nav nav-pills">
-            <li className="nav-item">
+            <li className="nav-item mx-1">
               <a
                 href="#home"
-                className={`nav-link mx-2 ${active === "home" ? "active" : ""}`}
+                className={`nav-link ${active === "home" ? "active" : ""}`}
                 onClick={() => {
                   setActive("home");
                   props.selectedNav("home");
@@ -26,12 +27,10 @@ export default function Navbar(props) {
                 Home
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-1">
               <a
                 href="#skills"
-                className={`nav-link mx-2 ${
-                  active === "skills" ? "active" : ""
-                }`}
+                className={`nav-link ${active === "skills" ? "active" : ""}`}
                 onClick={() => {
                   setActive("skills");
                   props.selectedNav("skills");
@@ -40,12 +39,10 @@ export default function Navbar(props) {
                 Skills
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-1">
               <a
                 href="#work-exp"
-                className={`nav-link mx-2 ${
-                  active === "work-exp" ? "active" : ""
-                }`}
+                className={`nav-link ${active === "work-exp" ? "active" : ""}`}
                 onClick={() => {
                   setActive("work-exp");
                   props.selectedNav("work-exp");
@@ -54,12 +51,10 @@ export default function Navbar(props) {
                 Work Exp
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-1">
               <a
                 href="#projects"
-                className={`nav-link mx-2 ${
-                  active === "projects" ? "active" : ""
-                }`}
+                className={`nav-link ${active === "projects" ? "active" : ""}`}
                 onClick={() => {
                   setActive("projects");
                   props.selectedNav("projects");
@@ -68,12 +63,10 @@ export default function Navbar(props) {
                 Projects
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-1">
               <a
                 href="#contact"
-                className={`nav-link mx-2 ${
-                  active === "contact" ? "active" : ""
-                }`}
+                className={`nav-link ${active === "contact" ? "active" : ""}`}
                 onClick={() => {
                   setActive("contact");
                   props.selectedNav("contact");
@@ -83,17 +76,35 @@ export default function Navbar(props) {
               </a>
             </li>
           </ul>
-        </header>
-        <div className="redirect-button">
-          <a
-            href={linkToRedirect}
-            className={`btn ${
+        </div>
+        <div className="d-flex justify-content-center align-items-center">
+          <button
+            onClick={props.setDarkMode}
+            className={`btn mx-1 ${
               props.darkMode ? "btn-outline-light" : "btn-outline-secondary"
             }`}
-            target="_blank"
           >
-            View Source Code <FontAwesomeIcon icon={faExternalLinkAlt} />
-          </a>
+            {props.darkMode ? (
+              <>
+                <FaSun className="sun-icon" />
+              </>
+            ) : (
+              <>
+                <FaMoon className="moon-icon" />
+              </>
+            )}
+          </button>
+          <div className="redirect-button">
+            <a
+              href={linkToRedirect}
+              className={`btn ${
+                props.darkMode ? "btn-outline-light" : "btn-outline-secondary"
+              }`}
+              target="_blank"
+            >
+              View Source Code <FontAwesomeIcon icon={faExternalLinkAlt} />
+            </a>
+          </div>
         </div>
       </div>
     </section>

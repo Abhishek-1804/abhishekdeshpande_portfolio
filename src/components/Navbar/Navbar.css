@@ -1,15 +1,14 @@
 .navbar-section {
   position: fixed !important;
-  top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   z-index: 1000;
   transition: background-color 0.3s;
-
 }
 
 .nav-link {
-  text-decoration: none;
   color: #333;
   padding: 5px 10px;
   border-radius: 15px;
@@ -19,13 +18,14 @@
   background-color: #f0f0f0;
 }
 
+/* dark mode */
 .navbar-section.dark-mode {
   background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-section.dark-mode .nav-link {
-  color: #fff; 
-  background-color: #444;
+  color: lightgrey;
   transition: background-color 0.3s;
 }
 

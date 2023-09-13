@@ -28,7 +28,7 @@ export default function Work(props) {
           {workExperienceData.map((experience, index) => (
             <motion.div
               key={index}
-              className={`col-md-8 mx-auto mt-4 fade-in ${
+              className={`mx-auto mt-4 fade-in ${
                 isCardExpanded(index) ? "expanded col-md-12" : ""
               }`}
               initial={{ opacity: 0, width: "50%" }}
@@ -44,9 +44,7 @@ export default function Work(props) {
                   <div className="d-flex justify-content-between align-items-center my-3">
                     <div>
                       <h5 className="card-title">{experience.company}</h5>
-                      <h6 className="card-subtitle">
-                        {experience.title}
-                      </h6>
+                      <h6 className="card-subtitle">{experience.title}</h6>
                       <p className="card-text">{experience.date}</p>
                     </div>
                     <img

@@ -14,13 +14,13 @@ export default function Contact(props) {
     <section className={`contact-section ${props.darkMode && "dark-mode"}`}>
       <div className="container">
         <div className="row">
+          <h2 className="mb-4 text-center">Contact Me</h2>
           <div className="col-md-4 mx-auto">
-            <h2 className="mb-4 text-center">Contact Me</h2>
             <div className="contact-box text-center">
               <ul className="list-unstyled contact-list">
                 <li className="mb-3">
                   <FontAwesomeIcon icon={faEnvelope} className="mx-2" />
-                  abhidp55@gmail.com
+                  <a href="mailto:abhidp55@gmail.com">abhidp55@gmail.com</a>
                 </li>
                 <li className="mb-3">
                   <FontAwesomeIcon icon={faPhone} className="mx-2" />

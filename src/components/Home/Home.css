@@ -1,27 +1,29 @@
 .home-section {
-  background-color: #f9f9f9;
-  padding-top: 120px;
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 130px;
   transition: background-color 0.3s;
 }
 
 .home-section p {
   font-size: 1.2rem;
+  margin-bottom: 0px;
 }
 
+.typewriter-container {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.home-section .btn {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* dark mode */
 .home-section.dark-mode {
   background-color: grey;
 }
 
-/* Dark mode text color */
 .home-section.dark-mode .btn {
   color: white;
-}
-
-/* Dark mode text color for secondary button */
-.home-section.dark-mode .btn-secondary {
-  color: white;
-}
-
-.typewriter-container {
-  font-size: 1.2rem; /* Adjust the font size as needed */
 }

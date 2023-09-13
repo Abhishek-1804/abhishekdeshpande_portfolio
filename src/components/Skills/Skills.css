@@ -1,8 +1,8 @@
 .skills-section {
-  background-color: #f9f9f9;
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding-top: 100px;
   transition: background-color 0.3s;
-
 }
 
 .skill-container {
@@ -11,11 +11,11 @@
 }
 
 .skills-tile {
+  background-color: #f9f9f9;
   display: inline-block;
   text-align: center;
-  background-color: white;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   border-radius: 20px;
   padding: 10px;
@@ -26,7 +26,7 @@
 
 .skills-tile:hover {
   transform: scale(1.1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .skill-icon {
@@ -57,12 +57,14 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
+/* dark mode */
 .skills-section.dark-mode {
   background-color: grey;
 }
 
 .skills-section.dark-mode .skills-tile {
-  border-color: #555; 
-  color: white; 
-  background-color: #555; 
+  color: lightgrey;
+  background-color: #555;
+  border: 1px solid #555;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }

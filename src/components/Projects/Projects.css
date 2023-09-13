@@ -1,9 +1,9 @@
 .projects-section {
   padding-top: 100px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding-bottom: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   transition: background-color 0.3s;
-
 }
 
 .projects-section.dark-mode{
