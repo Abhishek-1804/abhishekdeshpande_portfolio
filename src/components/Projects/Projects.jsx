@@ -14,11 +14,13 @@ export default function Projects(props) {
               key={index}
             >
               <div className="card project-card">
-                <img
-                  className="card-img-top"
-                  src={project.imageSrc}
-                  alt={project.name}
-                />
+                <a href={project.link} target="_blank">
+                  <img
+                    className="card-img-top"
+                    src={project.imageSrc}
+                    alt={project.name}
+                  />
+                </a>
                 <div className="card-body">
                   <h5 className="card-title">{project.name}</h5>
                   <div className="d-flex justify-content-between">
