@@ -50,6 +50,7 @@ export default function Home(props) {
               <a
                 aria-label="github"
                 title="github"
+                target="_blank"
                 href="//github.com/Abhishek-1804"
               >
                 <img
@@ -61,6 +62,7 @@ export default function Home(props) {
               <a
                 aria-label="linkedin"
                 title="linkedin"
+                target="_blank"
                 href="//linkedin.com/in/abhishekdeshpande18/"
               >
                 <img

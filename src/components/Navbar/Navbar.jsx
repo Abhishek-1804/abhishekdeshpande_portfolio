@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaSun, FaMoon } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar(props) {
@@ -102,7 +102,8 @@ export default function Navbar(props) {
               }`}
               target="_blank"
             >
-              View Source Code <FontAwesomeIcon icon={faExternalLinkAlt} />
+              View Source Code
+              <FontAwesomeIcon icon={faExternalLinkAlt} />
             </a>
           </div>
         </div>
