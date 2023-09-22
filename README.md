@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! You can access the live site [here](ht
 
 ## About
 
-This website serves as a showcase of my work, skills, and experiences as a creative full-stack developer. It's designed to provide you with insights into my expertise, projects, and how to get in touch with me for potential collaborations
+This website serves as a showcase of my work, skills, and experiences as a developer. It's designed to provide you with insights into my expertise, projects, and how to get in touch with me for potential collaborations
 
 ## Features
 
@@ -21,6 +21,7 @@ This website serves as a showcase of my work, skills, and experiences as a creat
 - Download CV: Easily download my CV (resume) for more detailed information
 - Hire Me: Connect with me via email for potential job opportunities or collaborations
 - Social Links: Access my GitHub and LinkedIn profiles to stay updated with my work and connect professionally
+- Projects Links: View projects I've done on Github
 
 ## Inspiration
 

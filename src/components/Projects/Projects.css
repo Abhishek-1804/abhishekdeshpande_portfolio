@@ -10,8 +10,8 @@
   border: 1px solid #e0e0e0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
-  width: 100%; 
-  max-width: 300px; 
+  width: 100%;
+  max-width: 300px;
   height: 100%;
   border-radius: 15px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -20,6 +20,12 @@
 .projects-section .card:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
 }
 
 @keyframes fadeIn {
