@@ -6,7 +6,7 @@ export default function Home(props) {
   const hireMeEmail = "abhidp55@gmail.com";
 
   const pdfUrl =
-    "https://drive.google.com/file/d/1angGjjhrL2_X98xlY9tUwPr9_1uj1HIN/view?usp=sharing";
+    "https://drive.google.com/file/d/1o-P7j-NFq9b2h2qPzJSWj1FPiR23dKML/view?usp=sharing";
 
   return (
     <section className={`home-section ${props.darkMode && "dark-mode"}`}>
