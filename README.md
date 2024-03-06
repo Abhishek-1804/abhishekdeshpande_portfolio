@@ -45,7 +45,7 @@ This website serves as a showcase of my work, skills, and experiences as a devel
 4. ```npm start``` project and customize it
 5. Run ```npm i gh-pages --save-dev```
 6. Use npm run deploy to deploy to github pages
-7. DO NOT PUSH ON MAIN BRANCH. ```npm run deploy``` takes care of deployment and restructuring
+7. DO NOT PUSH ON MAIN BRANCH. ```npm run deploy``` takes care of deployment and restructuring.
 
 ```
 ⚠️ Note that:
