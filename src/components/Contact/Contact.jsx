@@ -24,11 +24,11 @@ export default function Contact(props) {
                 </li>
                 <li className="mb-3">
                   <FontAwesomeIcon icon={faPhone} className="mx-2" />
-                  +91 7674841948
+                  +1(602)-670-1926
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faMapMarker} className="mx-2" />
-                  Hyderabad, India
+                  Phoenix, USA
                 </li>
               </ul>
             </div>
