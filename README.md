@@ -44,17 +44,17 @@ This website serves as a showcase of my work, skills, and experiences as a devel
 ```
 4. ```npm start``` project and customize it
 5. Run ```npm i gh-pages --save-dev```
-6. Use npm run deploy to deploy to github pages
-7. DO NOT PUSH ON MAIN BRANCH. ```npm run deploy``` takes care of deployment and restructuring.
+6. Use ```npm run deploy``` to deploy to github pages. DO NOT PUSH ON MAIN BRANCH. ```npm run deploy``` takes care of deployment and restructuring
+7. To make additional changes, create another branch and make updates on that. Then merge it with the main branch and deploy
 
 ```
 ⚠️ Note that:
 
-- if you want to have portfolio on different repository than `{username}.github.io`, 
+- If you want to have your portfolio on different repository than `{username}.github.io`, 
 set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
 before deploying portfolio
 
-- if you want to run it locally with npm run start, make sure that you have edited 
+- If you want to run it locally with npm run start, make sure that you have edited 
 homepage property or json data won't load
 ```
 
