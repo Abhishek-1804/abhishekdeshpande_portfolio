@@ -1,0 +1,51 @@
+.contact-section {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.contact-box {
+  padding: 20px 0px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact-section.dark-mode {
+  background-color: grey;
+}
+
+.contact-section.dark-mode .contact-box {
+  color: lightgrey;
+  background-color: #555;
+  border: 1px solid #555;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section.dark-mode a {
+  color: lightgrey;
+}

@@ -1,0 +1,70 @@
+.work-section {
+  background-color: #fff;
+  padding-top: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: background-color 0.3s;
+}
+
+.work-section .card {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.card.expanded {
+  width: 100%;
+  opacity: 1;
+}
+
+.click-to-expand {
+  color: #888;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.company-logo {
+  max-width: 100px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* dark mode */
+.work-section.dark-mode {
+  background-color: grey;
+}
+
+.work-section.dark-mode .card {
+  background-color: #555;
+  color: white;
+  border: 1px solid #555;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.work-section.dark-mode .card .click-to-expand {
+  color: lightgray;
+}
+
+.work-section.dark-mode .card-title {
+  color: white;
+}
+
+.work-section.dark-mode .card-subtitle,
+.work-section.dark-mode .card-text {
+  color: lightgrey;
+}

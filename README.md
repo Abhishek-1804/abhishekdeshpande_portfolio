@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Abhishek Deshpande's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! You can access the live site [here](https://abhishek-1804.github.io/abhishekdeshpande_portfolio/)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About](#About)
+- [Features](#Features)
+- [Inspiration](#Inspiration)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This website serves as a showcase of my work, skills, and experiences as a developer. It's designed to provide you with insights into my expertise, projects, and how to get in touch with me for potential collaborations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Home: Get to know me, my name, and what I specialize in
+- Dark Mode Toggle: Toggle between dark and light mode
+- Download CV: Easily download my CV (resume) for more detailed information
+- Hire Me: Connect with me via email for potential job opportunities or collaborations
+- Social Links: Access my GitHub and LinkedIn profiles to stay updated with my work and connect professionally
+- Projects Links: View projects I've done on Github
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inspiration
 
-### `npm run build`
+- React Fortawesome
+- Bootstrap
+- Framer-motion
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone or fork the project
+2. Install required dependencies with ``` npm install ```
+3. Remove homepage entirely from package.json or set it to single dot
+```
+// package.json
+{
+  "homepage": "https://abhishek-1804.github.io/abhishekdeshpande_portfolio",  <--- remove/edit this
+  "name": "website_portfolio",
+  ...
+}
+```
+4. ```npm start``` project and customize it (to view images, delete the homepage temporarily)
+5. Run ```npm i gh-pages --save-dev```
+6. Use npm run deploy to deploy to github pages
+7. To make changes, create another branch and work on that. Then merge it with the main branch and ```npm run deploy```. DO NOT PUSH THE MAIN BRANCH as gh-pages handles the deployment process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+⚠️ Note that:
 
-### `npm run eject`
+- if you want to have portfolio on different repository than `{username}.github.io`, 
+set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
+before deploying portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- if you want to run it locally with npm run start, make sure that you have edited 
+homepage property or json data won't load
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+This portfolio is a personal project, but I appreciate feedback and suggestions. If you have any ideas for improvements or spot any issues, please create an issue or submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
