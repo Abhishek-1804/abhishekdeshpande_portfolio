@@ -1,8 +1,4 @@
 {
-  "//": [
-    "This key is for comments only",
-    "Whenever integrating changes, do not push on main, only run `npm run deploy` to update changes"
-  ],
   "homepage": "https://abhishek-1804.github.io/abhishekdeshpande_portfolio",
   "name": "website_portfolio",
   "version": "0.1.0",
