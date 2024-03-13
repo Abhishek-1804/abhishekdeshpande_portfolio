@@ -16,6 +16,10 @@ const skillsData = [
     name: "Git",
   },
   {
+      icon: "./images/skillset/Vim.svg",
+      name: "Vim",
+  },
+  {
     icon: "./images/skillset/bootstrap.svg",
     name: "Bootstrap",
   },
