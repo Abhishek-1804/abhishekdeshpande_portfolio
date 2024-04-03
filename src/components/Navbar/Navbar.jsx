@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Navbar.css";
 import { FaSun, FaMoon } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Navbar.css";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar(props) {
   const [active, setActive] = useState("home");
@@ -101,6 +101,7 @@ export default function Navbar(props) {
                 props.darkMode ? "btn-outline-light" : "btn-outline-secondary"
               }`}
               target="_blank"
+              rel="noreferrer"
             >
               View Source Code
               <FontAwesomeIcon icon={faExternalLinkAlt} />
