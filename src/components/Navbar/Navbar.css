@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   z-index: 1000;
   transition: background-color 0.3s;
 }
@@ -15,6 +15,10 @@
 
 .nav-link:hover {
   background-color: #f0f0f0;
+}
+
+.icon-spacing {
+  margin-left: 8px; /* Adjust the value as needed for desired spacing */
 }
 
 /* dark mode */

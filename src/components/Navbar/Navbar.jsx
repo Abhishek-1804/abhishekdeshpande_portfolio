@@ -104,7 +104,10 @@ export default function Navbar(props) {
               rel="noreferrer"
             >
               View Source Code
-              <FontAwesomeIcon icon={faExternalLinkAlt} />
+              <FontAwesomeIcon
+                icon={faExternalLinkAlt}
+                className="icon-spacing"
+              />
             </a>
           </div>
         </div>

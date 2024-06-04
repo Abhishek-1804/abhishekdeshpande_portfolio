@@ -1,18 +1,23 @@
 const ProjectsData = [
   {
     name: "Cotton Disease Classifier",
-    imageSrc: "./images/projects/cotton_disease.png",
     link: "https://github.com/Abhishek-1804/Cotton_disease_classification",
-    view: false,
-    viewLink: "",
+    description: "A machine learning model to classify cotton diseases",
+    tools: ["Python", "TensorFlow", "Keras"],
   },
   {
     name: "Deep Q Learning Snake Game",
-    imageSrc: "./images/projects/SnakeAI.png",
     link: "https://github.com/Abhishek-1804/SnakeAI",
-    view: false,
-    viewLink: "",
+    description: "An AI-based snake game using Deep Q Learning",
+    tools: ["Python", "PyTorch", "OpenAI Gym"],
+  },
+  {
+    name: "Notion Notes App",
+    link: "https://github.com/Abhishek-1804/notion_notes_app",
+    description:
+      "A notes app integrated with Notion and Siri Shortcuts hosted on Firebase",
+    tools: ["JavaScript", "Node.js", "Notion API"],
   },
 ];
-// images sourced from stable diffusion
+
 export default ProjectsData;

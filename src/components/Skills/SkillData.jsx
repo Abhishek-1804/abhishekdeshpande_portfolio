@@ -1,76 +1,87 @@
 const skillsData = [
   {
-    icon: "./images/skillset/html.svg",
-    name: "HTML",
-  },
-  {
-    icon: "./images/skillset/css.svg",
-    name: "CSS",
-  },
-  {
-    icon: "./images/skillset/js.svg",
-    name: "Js",
-  },
-  {
-    icon: "./images/skillset/git.svg",
+    icon: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
     name: "Git",
   },
   {
-      icon: "./images/skillset/Vim.svg",
-      name: "Vim",
+    icon: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+    name: "Docker",
   },
   {
-    icon: "./images/skillset/bootstrap.svg",
-    name: "Bootstrap",
+    icon: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg",
+    name: "Linux",
   },
   {
-    icon: "./images/skillset/mongo.svg",
-    name: "Mongo",
+    icon: "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg",
+    name: "JavaScript",
   },
   {
-    icon: "./images/skillset/node.svg",
-    name: "Node",
+    icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    name: "Node.js",
   },
   {
-    icon: "./images/skillset/react.svg",
+    icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
     name: "React",
   },
   {
-    icon: "./images/skillset/python.svg",
-    name: "Python",
+    icon: "https://upload.vectorlogo.zone/logos/nextjs/images/abcffb25-b56d-475f-9c82-26818776dc33.svg",
+    name: "Next.js",
   },
   {
-    icon: "./images/skillset/R.svg",
-    name: "R",
+    icon: "https://raw.githubusercontent.com/detain/svg-logos/07e36b4aa0691f3015886624395e083395e528c5/svg/t/tailwindcss.svg",
+    name: "Tailwind CSS",
   },
   {
-    icon: "./images/skillset/jupyter.svg",
-    name: "Jupyter",
+    icon: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+    name: "MongoDB",
   },
   {
-    icon: "./images/skillset/opencv.svg",
-    name: "OpenCV",
-  },
-  {
-    icon: "./images/skillset/postgres.svg",
+    icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
     name: "PostgreSQL",
   },
   {
-    icon: "./images/skillset/powerbi.svg",
-    name: "PowerBI",
+    icon: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+    name: "Python",
   },
   {
-    icon: "./images/skillset/vscode.svg",
-    name: "VS Code",
-  },
-
-  {
-    icon: "./images/skillset/aws.svg",
+    icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
     name: "AWS",
   },
   {
-    icon: "./images/skillset/colab.svg",
-    name: "Colab",
+    icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    name: "Firebase",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    name: "Postman",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",
+    name: "VS Code",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/neovimio/neovimio-icon.svg",
+    name: "Neovim",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg",
+    name: "Jupyter",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg",
+    name: "OpenCV",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg",
+    name: "PowerBI",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+    name: "HTML",
+  },
+  {
+    icon: "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+    name: "CSS",
   },
 ];
 

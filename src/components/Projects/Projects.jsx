@@ -14,39 +14,28 @@ export default function Projects(props) {
               key={index}
             >
               <div className="card project-card">
-                <a href={project.link} target="_blank">
-                  <img
-                    className="card-img-top"
-                    src={project.imageSrc}
-                    alt={project.name}
-                  />
-                </a>
-                <div className="card-body">
+                <div className="card-body text-center">
                   <h5 className="card-title">{project.name}</h5>
-                  <div className="d-flex justify-content-between">
-                    {project.link && (
-                      <a
-                        href={project.link}
-                        className={`btn ${
-                          props.darkMode
-                            ? "btn-outline-light"
-                            : "btn-outline-secondary"
-                        }`}
-                        target="_blank"
-                      >
-                        Source Code
-                      </a>
-                    )}
-                    {project.view && (
-                      <a
-                        href={project.viewLink}
-                        target="_blank"
-                        className="btn btn-primary"
-                      >
-                        View
-                      </a>
-                    )}
-                  </div>
+                  <p className="card-description">{project.description}</p>
+                  <ul className="list-inline tools-used">
+                    {project.tools.map((tool, i) => (
+                      <li key={i} className="list-inline-item">
+                        {tool}
+                      </li>
+                    ))}
+                  </ul>
+                  <a
+                    href={project.link}
+                    className={`btn ${
+                      props.darkMode
+                        ? "btn-outline-light"
+                        : "btn-outline-secondary"
+                    }`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Source Code
+                  </a>
                 </div>
               </div>
             </div>

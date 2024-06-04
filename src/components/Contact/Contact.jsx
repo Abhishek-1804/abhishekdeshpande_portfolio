@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact(props) {
+  const hireMeEmail = "apdeshp4@asu.edu";
   const currentYear = new Date().getFullYear();
 
   return (
@@ -20,7 +21,7 @@ export default function Contact(props) {
               <ul className="list-unstyled contact-list">
                 <li className="mb-3">
                   <FontAwesomeIcon icon={faEnvelope} className="mx-2" />
-                  <a href="mailto:abhidp55@gmail.com">abhidp55@gmail.com</a>
+                  <a href={`mailto:${hireMeEmail}`}>{hireMeEmail}</a>
                 </li>
                 <li className="mb-3">
                   <FontAwesomeIcon icon={faPhone} className="mx-2" />
