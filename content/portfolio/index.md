@@ -86,27 +86,13 @@ Here’s what I bring to the table:
 ### Master’s of Science in Computer Science
 
 **Arizona State University**  
-_(January 2024 – Present)_
 
-- **Spring 2024 Coursework**:  
-  Foundations of Algorithms, Information Assurance and Security, Knowledge Reasoning and Representation
-
-- **Summer 2024 Coursework**:  
-  Operating Systems
-
-- **Fall 2024 Coursework**:  
-  Data Mining, Data Processing at Scale, Software Verification and Validation Testing
-
-<!-- - **Spring 2025 Coursework**:   -->
-<!--   Data Mining, Data Processing at Scale, Software Verification and Validation Testing -->
-
-<!-- - **Fall 2025 Coursework**:   -->
-<!--   Data Mining, Data Processing at Scale, Software Verification and Validation Testing -->
+- **Relavent Coursework**:  
+  Algorithms, Information Assurance and Security, Operating Systems, Software Testing, Data Processing
 
 ### Bachelor’s of Technology in Aeronautical Engineering
 
 **Manipal Institute of Technology**  
-_(July 2018 – June 2022)_
 
 - **Relevant Coursework**:  
   Python, C, Statistics, Data Structures, Web Development
