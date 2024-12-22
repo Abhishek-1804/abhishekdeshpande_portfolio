@@ -41,6 +41,8 @@ params:
   showtoc: true
   tocopen: false
 
+  goatcounter: "abhishek"
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -142,6 +144,10 @@ menu:
       name: Search
       url: search/
       weight: 5
+    - identifier: goatcounter
+      name: Stats
+      url: "https://abhishek.goatcounter.com/"
+      weight: 6
       # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
