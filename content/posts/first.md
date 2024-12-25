@@ -1,5 +1,5 @@
 ---
-title: "Nix"
+title: "Why Nix is Awesome!"
 date: 2024-12-02T06:14:57-07:00
 draft: false
 tags:
