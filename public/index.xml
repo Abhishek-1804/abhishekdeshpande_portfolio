@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2024 10:50:03 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2024 19:26:41 -0700</lastBuildDate>
     <atom:link href="https://abhishek-1804.github.io/abhishekdeshpande_portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Nix is Awesome!</title>
@@ -44,6 +44,15 @@
 &lt;h3 id=&#34;1-linuxserverfoldingathome&#34;&gt;1. linuxserver/foldingathome&lt;/h3&gt;
 &lt;h4 id=&#34;overview&#34;&gt;Overview&lt;/h4&gt;
 &lt;p&gt;The Folding@Home project lets you contribute to disease research, including cancer, Alzheimer’s, and COVID-19, by donating unused computational power. This Docker image provides an easy way to join the network. You can set the account name and machine name in the CLI or do it later. If you have an NVIDIA GPU, you can enable it for better performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solid Understanding of SOLID Principles</title>
+      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/third/</link>
+      <pubDate>Mon, 30 Dec 2024 19:26:41 -0700</pubDate>
+      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/third/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Object-Oriented Programming (OOP) is a cornerstone of modern software development. To truly grasp advanced principles like SOLID, it’s essential to start with a strong understanding of OOP fundamentals. This post will walk you through OOP concepts and then dive into the SOLID principles with simple examples to solidify your understanding.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;understanding-object-oriented-programming-oop&#34;&gt;Understanding Object-Oriented Programming (OOP)&lt;/h2&gt;
+&lt;p&gt;Object-Oriented Programming revolves around the idea of representing real-world entities as objects. These objects encapsulate both data and behavior, making systems modular, reusable, and easier to maintain. Let’s break down the core principles of OOP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>

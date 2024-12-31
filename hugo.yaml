@@ -1,7 +1,7 @@
 baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
 title: Portfolio
 pagination:
-  pagerSize: 6
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
