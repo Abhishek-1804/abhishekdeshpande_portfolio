@@ -64,19 +64,19 @@ Here’s what I bring to the table:
 
 ## Projects 🚀
 
-| **Project**                                                                                         | **Technologies**                                                    | **Description**                                                                                                |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Project**                                                                                         | **Technologies**                                                          | **Description**                                                                                                |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | [**Notion Notes App**](https://github.com/Abhishek-1804/notion_notes_app)                           | Flask, Python, Nix, Docker, DigitalOcean, Traefik, Notion API, OpenAI API | A containerized app integrated with Notion API to manage notes using Siri Shortcuts, deployed on DigitalOcean. |
-| [**Deep Q-Learning Snake Game**](https://github.com/Abhishek-1804/SnakeAI)                          | Python, PyTorch, Reinforcement Learning                             | An AI-based Snake game with Deep Q-Learning and a GUI to visualize performance in real-time.                   |
-| [**Cotton Disease Classification**](https://github.com/Abhishek-1804/Cotton_disease_classification) | Python, TensorFlow, Transfer Learning                               | A transfer learning model achieving 96%-97% accuracy for cotton disease classification using CNNs.             |
+| [**Deep Q-Learning Snake Game**](https://github.com/Abhishek-1804/SnakeAI)                          | Python, PyTorch, Reinforcement Learning                                   | An AI-based Snake game with Deep Q-Learning and a GUI to visualize performance in real-time.                   |
+| [**Cotton Disease Classification**](https://github.com/Abhishek-1804/Cotton_disease_classification) | Python, TensorFlow, Transfer Learning                                     | A transfer learning model achieving 96%-97% accuracy for cotton disease classification using CNNs.             |
 
 ---
 
 ## Open Source Contributions 🌐
 
-| **Project**                                                                                        | **Contribution**                                                                                                      |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [**tldr-pages (51.8k+ GitHub stars)**](https://github.com/tldr-pages/tldr)                         | Actively contribute to the repository by resolving issues and adding/improving command pages such as `chat`, `lazygit`, and `speedtest`. *[View Contributions](https://github.com/tldr-pages/tldr/commits/main/?author=Abhishek-1804)* |
+| **Project**                                                                | **Contribution**                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**tldr-pages (51.8k+ GitHub stars)**](https://github.com/tldr-pages/tldr) | Actively contribute to the repository by resolving issues and adding/improving command pages such as `chat`, `lazygit`, and `speedtest`. _[View Contributions](https://github.com/tldr-pages/tldr/commits/main/?author=Abhishek-1804)_ |
 
 ---
 
@@ -84,14 +84,14 @@ Here’s what I bring to the table:
 
 ### Master’s of Science in Computer Science
 
-**Arizona State University**  
+**Arizona State University**
 
 - **Relavent Coursework**:  
-  Algorithms, Information Assurance and Security, Operating Systems, Software Testing, Data Processing
+  Machine Learning Acceleration, Information Assurance and Security, Operating Systems, Cloud Computing, Data Processing
 
 ### Bachelor’s of Technology in Aeronautical Engineering
 
-**Manipal Institute of Technology**  
+**Manipal Institute of Technology**
 
 - **Relevant Coursework**:  
   Python, C, Statistics, Data Structures, Web Development
