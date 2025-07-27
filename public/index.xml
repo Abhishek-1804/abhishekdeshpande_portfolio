@@ -1,115 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio</title>
-    <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/</link>
+    <link>https://abhishekdp.com/</link>
     <description>Recent content on Portfolio</description>
-    <image>
-      <title>Portfolio</title>
-      <url>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 30 Dec 2024 19:26:41 -0700</lastBuildDate>
-    <atom:link href="https://abhishek-1804.github.io/abhishekdeshpande_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abhishekdp.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Nix is Awesome!</title>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</link>
+      <link>https://abhishekdp.com/posts/first/</link>
       <pubDate>Mon, 02 Dec 2024 06:14:57 -0700</pubDate>
-      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</guid>
-      <description>&lt;h1 id=&#34;the-universal-package-manager-&#34;&gt;The Universal Package Manager 🌟&lt;/h1&gt;
-&lt;p&gt;Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.&lt;/p&gt;
-&lt;h2 id=&#34;introduction-to-nix&#34;&gt;Introduction to Nix&lt;/h2&gt;
-&lt;p&gt;Nix is an advanced package manager that takes a &lt;strong&gt;declarative and reproducible approach&lt;/strong&gt; to managing software. Unlike traditional package managers, Nix ensures that your system remains consistent and isolated, making it easier to reproduce builds across different environments. However, Nix comes with a steep learning curve, requiring time and effort to fully grasp its concepts and capabilities, particularly for those new to declarative configurations and functional programming paradigms.&lt;/p&gt;</description>
+      <guid>https://abhishekdp.com/posts/first/</guid>
+      <description>&lt;h1 id=&#34;the-universal-package-manager-&#34;&gt;The Universal Package Manager 🌟&lt;/h1&gt;&#xA;&lt;p&gt;Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction-to-nix&#34;&gt;Introduction to Nix&lt;/h2&gt;&#xA;&lt;p&gt;Nix is an advanced package manager that takes a &lt;strong&gt;declarative and reproducible approach&lt;/strong&gt; to managing software. Unlike traditional package managers, Nix ensures that your system remains consistent and isolated, making it easier to reproduce builds across different environments. However, Nix comes with a steep learning curve, requiring time and effort to fully grasp its concepts and capabilities, particularly for those new to declarative configurations and functional programming paradigms.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploring Docker: Essential Commands, Best Practices, and Cool Images</title>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/second/</link>
+      <link>https://abhishekdp.com/posts/second/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:03 -0700</pubDate>
-      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/second/</guid>
-      <description>&lt;h1 id=&#34;why-docker-unlocking-the-power-of-containerization-&#34;&gt;Why Docker: Unlocking the Power of Containerization 🚀&lt;/h1&gt;
-&lt;p&gt;Docker provides a fantastic way to quickly explore and use tools, services, or applications without the hassle of manual installation and dependency management. Here are some cool Docker images you can experiment with, along with instructions to get started.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;basic-docker-commands-to-know&#34;&gt;Basic Docker Commands to Know&lt;/h2&gt;
-&lt;p&gt;Before diving into specific images, here are some essential Docker commands every user should know:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;docker images&lt;/code&gt; – List all images on your system.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;docker ps -a&lt;/code&gt; – Show all containers, including stopped ones.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;docker volumes ls&lt;/code&gt; – View all Docker volumes.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;docker networks ls&lt;/code&gt; – List all Docker networks.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;cool-docker-images-to-try-out&#34;&gt;Cool Docker Images to Try Out&lt;/h2&gt;
-&lt;h3 id=&#34;1-linuxserverfoldingathome&#34;&gt;1. linuxserver/foldingathome&lt;/h3&gt;
-&lt;h4 id=&#34;overview&#34;&gt;Overview&lt;/h4&gt;
-&lt;p&gt;The Folding@Home project lets you contribute to disease research, including cancer, Alzheimer’s, and COVID-19, by donating unused computational power. This Docker image provides an easy way to join the network. You can set the account name and machine name in the CLI or do it later. If you have an NVIDIA GPU, you can enable it for better performance.&lt;/p&gt;</description>
+      <guid>https://abhishekdp.com/posts/second/</guid>
+      <description>&lt;h1 id=&#34;why-docker-unlocking-the-power-of-containerization-&#34;&gt;Why Docker: Unlocking the Power of Containerization 🚀&lt;/h1&gt;&#xA;&lt;p&gt;Docker provides a fantastic way to quickly explore and use tools, services, or applications without the hassle of manual installation and dependency management. Here are some cool Docker images you can experiment with, along with instructions to get started.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;basic-docker-commands-to-know&#34;&gt;Basic Docker Commands to Know&lt;/h2&gt;&#xA;&lt;p&gt;Before diving into specific images, here are some essential Docker commands every user should know:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker images&lt;/code&gt; – List all images on your system.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker ps -a&lt;/code&gt; – Show all containers, including stopped ones.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker volumes ls&lt;/code&gt; – View all Docker volumes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker networks ls&lt;/code&gt; – List all Docker networks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;cool-docker-images-to-try-out&#34;&gt;Cool Docker Images to Try Out&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-linuxserverfoldingathome&#34;&gt;1. linuxserver/foldingathome&lt;/h3&gt;&#xA;&lt;h4 id=&#34;overview&#34;&gt;Overview&lt;/h4&gt;&#xA;&lt;p&gt;The Folding@Home project lets you contribute to disease research, including cancer, Alzheimer’s, and COVID-19, by donating unused computational power. This Docker image provides an easy way to join the network. You can set the account name and machine name in the CLI or do it later. If you have an NVIDIA GPU, you can enable it for better performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solid Understanding of SOLID Principles</title>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/third/</link>
+      <link>https://abhishekdp.com/posts/third/</link>
       <pubDate>Mon, 30 Dec 2024 19:26:41 -0700</pubDate>
-      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/third/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Object-Oriented Programming (OOP) is a cornerstone of modern software development. To truly grasp advanced principles like SOLID, it’s essential to start with a strong understanding of OOP fundamentals. This post will walk you through OOP concepts and then dive into the SOLID principles with simple examples to solidify your understanding.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;understanding-object-oriented-programming-oop&#34;&gt;Understanding Object-Oriented Programming (OOP)&lt;/h2&gt;
-&lt;p&gt;Object-Oriented Programming revolves around the idea of representing real-world entities as objects. These objects encapsulate both data and behavior, making systems modular, reusable, and easier to maintain. Let’s break down the core principles of OOP.&lt;/p&gt;</description>
+      <guid>https://abhishekdp.com/posts/third/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Object-Oriented Programming (OOP) is a cornerstone of modern software development. To truly grasp advanced principles like SOLID, it’s essential to start with a strong understanding of OOP fundamentals. This post will walk you through OOP concepts and then dive into the SOLID principles with simple examples to solidify your understanding.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-object-oriented-programming-oop&#34;&gt;Understanding Object-Oriented Programming (OOP)&lt;/h2&gt;&#xA;&lt;p&gt;Object-Oriented Programming revolves around the idea of representing real-world entities as objects. These objects encapsulate both data and behavior, making systems modular, reusable, and easier to maintain. Let’s break down the core principles of OOP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://abhishekdp.com/search/</link>
+      <pubDate>Mon, 02 Dec 2024 13:03:57 -0700</pubDate>
+      <guid>https://abhishekdp.com/search/</guid>
+      <description>search</description>
+    </item>
+    <item>
+      <title>Archives</title>
+      <link>https://abhishekdp.com/archives/</link>
+      <pubDate>Sun, 01 Dec 2024 10:09:08 -0700</pubDate>
+      <guid>https://abhishekdp.com/archives/</guid>
+      <description>archives</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/portfolio/</link>
+      <link>https://abhishekdp.com/portfolio/</link>
       <pubDate>Sun, 01 Dec 2024 10:02:47 -0700</pubDate>
-      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/portfolio/</guid>
-      <description>&lt;h1 id=&#34;hi-im-abhishek-deshpande-&#34;&gt;Hi, I&amp;rsquo;m Abhishek Deshpande 👋&lt;/h1&gt;
-&lt;p&gt;I’m a passionate &lt;strong&gt;Software Engineer&lt;/strong&gt; with experience in building scalable web applications, machine learning models, and REST APIs. I enjoy creating solutions that solve real-world problems using a combination of data analysis, cloud technologies, and modern development practices.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;skills-&#34;&gt;Skills 🌟&lt;/h2&gt;
-&lt;p&gt;Here’s what I bring to the table:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Technologies/Skills&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Python, SQL, JavaScript, TypeScript, HTML/CSS&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Web Development&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;React, Next.js, Node.js, Express, REST APIs&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Data Analysis&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Numpy, Pandas, Power BI, Excel&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Cloud &amp;amp; DevOps&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Docker, AWS, Firebase, Linux, CI/CD&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;PostgreSQL, MSSQL, MongoDB&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Tooling &amp;amp; Testing&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Git, Pytest&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Deep Learning, Transfer Learning, OpenCV&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Agile, SDLC (Software Development Life Cycle), Bash Scripting&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;work-experience-&#34;&gt;Work Experience 💼&lt;/h2&gt;
-&lt;h3 id=&#34;data-analyst&#34;&gt;Data Analyst&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Ganit Inc&lt;/strong&gt; (August 2022 – March 2023)&lt;/p&gt;</description>
+      <guid>https://abhishekdp.com/portfolio/</guid>
+      <description>&lt;h1 id=&#34;hi-im-abhishek-deshpande-&#34;&gt;Hi, I&amp;rsquo;m Abhishek Deshpande 👋&lt;/h1&gt;&#xA;&lt;p&gt;I’m a passionate &lt;strong&gt;Software Engineer&lt;/strong&gt; with experience in building scalable web applications, machine learning models, and REST APIs. I enjoy creating solutions that solve real-world problems using a combination of data analysis, cloud technologies, and modern development practices.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;skills-&#34;&gt;Skills 🌟&lt;/h2&gt;&#xA;&lt;p&gt;Here’s what I bring to the table:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;Technologies/Skills&lt;/strong&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Python, SQL, JavaScript, TypeScript, HTML/CSS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Web Development&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;React, Next.js, Node.js, Express, REST APIs&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Data Analysis&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Numpy, Pandas, Power BI, Excel&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Cloud &amp;amp; DevOps&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Docker, AWS, Firebase, Linux, CI/CD&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;PostgreSQL, MSSQL, MongoDB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Tooling &amp;amp; Testing&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Git, Pytest&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Deep Learning, Transfer Learning, OpenCV&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Agile, SDLC (Software Development Life Cycle), Bash Scripting&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;work-experience-&#34;&gt;Work Experience 💼&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-analyst&#34;&gt;Data Analyst&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ganit Inc&lt;/strong&gt; (August 2022 – March 2023)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
