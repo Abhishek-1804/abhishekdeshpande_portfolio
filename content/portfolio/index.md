@@ -40,25 +40,35 @@ Here’s what I bring to the table:
 
 ## Work Experience 💼
 
+## Software Development Engineer Intern
+
+**Amazon** (May 2025 – Aug 2025) — Seattle, USA
+
+- Automated AWS SES provisioning for QuickSight across regions, cutting setup time from 4–5 days to under 1 day and reducing manual effort by ~80%.
+- Enabled cross-region email notifications via automated domain verification, identities, and SNS/Lambda for bounces/complaints; eliminated delivery failures in target regions.
+- Drove design-to-prod execution with CDK-based, least-privilege IaC; validated in sandbox and shipped via internal CI/CD.
+- Migrated internal service gateway proxies (AppService → Brazil Config) and refactored APIs to modern patterns.
+- Improved monitoring with region-aware CDK alarms, increasing signal quality and incident detection.
+
 ### Data Analyst
 
-**Ganit Inc** (August 2022 – March 2023)
+**Ganit Inc** (August 2022 – March 2023) - India
 
-- Built **RESTful APIs** using Python and machine learning models to extract metadata from medical prescriptions with **92% accuracy**.
-- Designed and maintained **Power BI dashboards** for tracking over 20 KPIs, improving operational efficiency by **22%** and driving an **18% revenue increase annually**.
-- Automated workflows using **Bash scripting**, **Python**, and **AWS EC2** to refresh dashboards dynamically.
-- Managed **code reviews and pull requests** in Git to ensure high-quality, maintainable code.
+- Built **RESTful APIs** using Python and machine learning models to extract metadata from medical prescriptions with **92% accuracy**
+- Designed and maintained **Power BI dashboards** for tracking over 20 KPIs, improving operational efficiency by **22%** and driving an **18% revenue increase annually**
+- Automated workflows using **Bash scripting**, **Python**, and **AWS EC2** to refresh dashboards dynamically
+- Managed **code reviews and pull requests** in Git to ensure high-quality, maintainable code
 
 ---
 
 ### Data Analyst Intern
 
-**Ganit Inc** (February 2022 – July 2022)
+**Ganit Inc** (February 2022 – July 2022) - India
 
-- Reduced fraud analytics processing time by **40%** through optimized data workflows using **Pandas** and **Numpy**.
-- Developed Python scripts to link related emails using **regex**, improving data linkage accuracy by **25%**.
-- Automated error handling pipelines with Python, reducing manual investigation time by **50%**.
-- Performed stress testing on an ELK-stack-based front-end tool to ensure robust performance.
+- Reduced fraud analytics processing time by **40%** through optimized data workflows using **Pandas** and **Numpy**
+- Developed Python scripts to link related emails using **regex**, improving data linkage accuracy by **25%**
+- Automated error handling pipelines with Python, reducing manual investigation time by **50%**
+- Performed stress testing on an ELK-stack-based front-end tool to ensure robust performance
 
 ---
 
