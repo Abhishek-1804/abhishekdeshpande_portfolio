@@ -2,22 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Portfolio</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://abhishekdp.com/posts/</link>
     <description>Recent content in Posts on Portfolio</description>
-    <image>
-      <title>Portfolio</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 30 Dec 2024 19:26:41 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abhishekdp.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Nix is Awesome!</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <link>https://abhishekdp.com/posts/first/</link>
       <pubDate>Mon, 02 Dec 2024 06:14:57 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>https://abhishekdp.com/posts/first/</guid>
       <description>&lt;h1 id=&#34;the-universal-package-manager-&#34;&gt;The Universal Package Manager 🌟&lt;/h1&gt;
 &lt;p&gt;Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.&lt;/p&gt;
 &lt;h2 id=&#34;introduction-to-nix&#34;&gt;Introduction to Nix&lt;/h2&gt;
@@ -25,9 +20,9 @@
     </item>
     <item>
       <title>Exploring Docker: Essential Commands, Best Practices, and Cool Images</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>https://abhishekdp.com/posts/second/</link>
       <pubDate>Sun, 22 Dec 2024 10:50:03 -0700</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>https://abhishekdp.com/posts/second/</guid>
       <description>&lt;h1 id=&#34;why-docker-unlocking-the-power-of-containerization-&#34;&gt;Why Docker: Unlocking the Power of Containerization 🚀&lt;/h1&gt;
 &lt;p&gt;Docker provides a fantastic way to quickly explore and use tools, services, or applications without the hassle of manual installation and dependency management. Here are some cool Docker images you can experiment with, along with instructions to get started.&lt;/p&gt;
 &lt;hr&gt;
@@ -47,9 +42,9 @@
     </item>
     <item>
       <title>Solid Understanding of SOLID Principles</title>
-      <link>http://localhost:1313/posts/third/</link>
+      <link>https://abhishekdp.com/posts/third/</link>
       <pubDate>Mon, 30 Dec 2024 19:26:41 -0700</pubDate>
-      <guid>http://localhost:1313/posts/third/</guid>
+      <guid>https://abhishekdp.com/posts/third/</guid>
       <description>&lt;p&gt;&lt;em&gt;Object-Oriented Programming (OOP) is a cornerstone of modern software development. To truly grasp advanced principles like SOLID, it’s essential to start with a strong understanding of OOP fundamentals. This post will walk you through OOP concepts and then dive into the SOLID principles with simple examples to solidify your understanding.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;understanding-object-oriented-programming-oop&#34;&gt;Understanding Object-Oriented Programming (OOP)&lt;/h2&gt;
 &lt;p&gt;Object-Oriented Programming revolves around the idea of representing real-world entities as objects. These objects encapsulate both data and behavior, making systems modular, reusable, and easier to maintain. Let’s break down the core principles of OOP.&lt;/p&gt;</description>

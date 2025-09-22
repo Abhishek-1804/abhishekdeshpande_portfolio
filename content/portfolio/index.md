@@ -23,18 +23,19 @@ I’m a passionate **Software Engineer** with experience in building scalable we
 
 ## Skills 🌟
 
-Here’s what I bring to the table:
+Here's what I bring to the table:
 
-| **Category**          | **Technologies/Skills**                                       |
-| --------------------- | ------------------------------------------------------------- |
-| **Programming**       | Python, SQL, JavaScript, TypeScript, HTML/CSS                 |
-| **Web Development**   | React, Next.js, Node.js, Express, REST APIs                   |
-| **Data Analysis**     | Numpy, Pandas, Power BI, Excel                                |
-| **Cloud & DevOps**    | Docker, AWS, Firebase, Linux, CI/CD                           |
-| **Databases**         | PostgreSQL, MSSQL, MongoDB                                    |
-| **Tooling & Testing** | Git, Pytest                                                   |
-| **Machine Learning**  | Deep Learning, Transfer Learning, OpenCV                      |
-| **Others**            | Agile, SDLC (Software Development Life Cycle), Bash Scripting |
+| **Category**          | **Technologies/Skills**                                                       |
+| --------------------- | ----------------------------------------------------------------------------- |
+| **Programming**       | Python, SQL, JavaScript, TypeScript, HTML/CSS                                 |
+| **Web Development**   | React, Next.js, Node.js, Express, REST APIs                                   |
+| **Data Analysis**     | Numpy, Pandas, Power BI, Excel                                                |
+| **Cloud & DevOps**    | Docker, AWS, Firebase, Linux, CI/CD                                           |
+| **Databases**         | PostgreSQL, MSSQL, MongoDB                                                    |
+| **Tooling & Testing** | Git, Pytest                                                                   |
+| **Machine Learning**  | Deep Learning, Transfer Learning, OpenCV, Reinforcement Learning              |
+| **AI**                | LangChain, MCP (Model Context Protocol), RAG (Retrieval-Augmented Generation) |
+| **Others**            | Agile, SDLC (Software Development Life Cycle), Bash Scripting                 |
 
 ---
 
@@ -58,8 +59,6 @@ Here’s what I bring to the table:
 - Designed and maintained **Power BI dashboards** for tracking over 20 KPIs, improving operational efficiency by **22%** and driving an **18% revenue increase annually**
 - Automated workflows using **Bash scripting**, **Python**, and **AWS EC2** to refresh dashboards dynamically
 - Managed **code reviews and pull requests** in Git to ensure high-quality, maintainable code
-
----
 
 ### Data Analyst Intern
 
